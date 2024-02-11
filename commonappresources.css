@@ -42,4 +42,7 @@ footer{
     .row {
         padding-top: 10px;
     }
+    .text{
+        font-size: auto;
+    }
 }
