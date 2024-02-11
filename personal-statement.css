@@ -1,0 +1,30 @@
+footer {
+    background-color: maroon; /* Choose your desired background color */
+    color: white; /* Choose your desired text color */
+    padding: 20px; /* Add padding to the footer */
+    text-align: center;
+    
+}
+/* CSS to disable text selection */
+.unselectable {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+@media (max-width: 800px){
+    body {
+        font-size: medium;
+    }
+    .display-4 {
+        font-size: 20px;
+    }
+    .lead {
+        font-size: small;
+    }
+    main {
+        padding-top: 5px;
+    }
+}

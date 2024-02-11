@@ -1,0 +1,45 @@
+/* Add your custom styles here */
+/* For example, you can style the body background color or modify the navigation bar */
+body {
+    background-color: #f8f9fa;
+    width: 100%;
+}
+
+.col-md-6 {
+    padding-bottom: 50px;
+}
+nav.navbar {
+    height: 80px;
+    background-color: maroon;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+footer{
+    width: 100%;
+}
+.list-group-item {
+    white-space: nowrap;
+}
+
+
+/* Additional styling as needed */
+@media (max-width: 800px) {
+    footer {
+        height: auto;
+        padding: 15px;
+        width: 100%;
+        align-items: center;
+    }
+   
+    footer h3 {
+        white-space: normal;
+        font-size: 14px;
+    }
+    .col-md-6 {
+        padding-bottom: 20px;
+    }
+    .row {
+        padding-top: 10px;
+    }
+}

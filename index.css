@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+}
+
+.main {
+    flex: 1; /* Allow the main content to take up remaining space */
+}
+
+footer {
+    background-color: maroon; /* Choose your desired background color */
+    color: white; /* Choose your desired text color */
+    padding: 20px; /* Add padding to the footer */
+    text-align: center;
+    
+}
+footer {
+    background-color: maroon;
+}
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+}
+a {
+    position: relative;
+    color: #000; /* Set the text color */
+}
+
+a:hover {
+    color: rgb(83, 1, 1);
+    text-decoration: none;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px; /* Set the thickness of the underline */
+    background-color: rgb(83, 1, 1); /* Set the color of the underline */
+    bottom: 0;
+    left: 0;
+    transition: width 0.7s ease; /* Set the transition effect duration */
+}
+
+a:hover::before {
+    width: 100%;
+}
+nav.navbar {
+    height: 80px;
+    background-color: maroon;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+footer{
+    width: 100%;
+}
+h3{
+    font-size: 15px;
+}
+/* Add a media query for responsive navigation */
+/* Media query for screens with a maximum width of 767 pixels (mobile devices) */
+@media (max-width: 800px) {
+    nav.navbar {
+        height: auto;
+        background-color: maroon;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+
+
+    div.main {
+        margin-top: 5rem; /* Adjust the margin as needed for mobile */
+    }
+
+
+    img.mainImg {
+        height: 15%;
+        width: 5px;
+        margin: 0rem 5rem 0rem 5rem;
+    }
+
+
+    footer {
+        height: auto;
+        padding: 15px;
+        width: 100%;
+        align-items: center;
+    }
+   
+    footer h3 {
+        white-space: normal;
+        font-size: 14px;
+    }
+
+
+    .navbar-toggler {
+        margin-right: 0;
+    }
+
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+
+    .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+    }
+    .container {
+        padding-bottom: 10px;
+    }
+    .navbar-brand{
+        font-size: 15px
+    }
+}
