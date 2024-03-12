@@ -10,5 +10,5 @@ document.addEventListener('DOMContentLoaded', function () {
             loadingOverlay.style.display = 'none';
             content.style.display = 'block';
         }, 2000); // Wait for the transition to complete (2 seconds)
-    }, 4000); // 4 seconds
+    }, 6000); // 4 seconds
 });
