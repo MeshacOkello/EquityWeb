@@ -13,11 +13,10 @@ footer {
     color: white; /* Choose your desired text color */
     padding: 20px; /* Add padding to the footer */
     text-align: center;
-    
+    position: relative;
+    z-index: 9999;
 }
-footer {
-    background-color: maroon;
-}
+
 body {
     line-height: 1.6;
     margin: 0;
@@ -50,8 +49,7 @@ a:hover::before {
 }
 nav.navbar {
     height: 80px;
-    background-color: maroon;
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
 }
@@ -78,12 +76,6 @@ h3{
         margin-top: 5rem; /* Adjust the margin as needed for mobile */
     }
 
-
-    img.mainImg {
-        height: 15%;
-        width: 5px;
-        margin: 0rem 5rem 0rem 5rem;
-    }
 
 
     footer {
@@ -120,4 +112,14 @@ h3{
     .navbar-brand{
         font-size: 15px
     }
+    /*tried using the class to create an animation for infinitely highlighting
+     the text but wasn't compatible with our codebase*/
+    .welcome-block {
+        font-size: xxx-large;
+        font-weight:700;
+        text-align: center;
+        color: rgba(255, 255, 255, 0);
+        
+    }
+
 }
